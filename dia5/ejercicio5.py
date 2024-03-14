@@ -34,3 +34,38 @@ print (numero_hijos >= 1) #False
     5.- Ser o no ser
     6.- La programacion no es facil -> Es dificil la programacion
 """
+
+nombre = "Juan"
+me_llamo_juan = (nombre == "Juan")
+print(me_llamo_juan) #True
+print(type(me_llamo_juan)) #<class 'bool'>
+
+
+
+#Logica proposicional
+"""
+# Quieres helado (P) SI - NO
+# Quieres bebida (Q) SI - NO
+
+# AND (Y; i) 2 ^ 2
+# Quieres helado y Quieres bebida
+# Punto critico para el AND es : ambos verdaderos el resultado es verdadero
+    P            y      Q
+-------
+    True         y      True   = True (* Este es unico que debo aprender, porque si sabes este todo lo demas es False)
+    True         y      False  = False
+    False        y      True   = False
+    False        y      False  = False
+
+#Punto critico para el o es: ambos falsos el resultado es falso
+    P            o      Q
+-------
+    True         o      True   = True
+    True         o      False  = True
+    False        o      True   = True
+    False        o      False  = False (* Este es unico que debo aprender, porque si sabes este todo lo demas es True)
+
+
+
+"""
+

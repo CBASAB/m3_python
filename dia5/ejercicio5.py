@@ -65,7 +65,10 @@ print(type(me_llamo_juan)) #<class 'bool'>
     False        o      True   = True
     False        o      False  = False (* Este es unico que debo aprender, porque si sabes este todo lo demas es True)
 
-
-
+#Punto critico para el ^ (XoR) es: ambas iguales el resultado es False, si ambas son diferentes es True
+    P            ^      Q
+    
+    
+    
 """
 

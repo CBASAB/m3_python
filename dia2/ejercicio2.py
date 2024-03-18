@@ -57,4 +57,34 @@ cualquier
 cosas
 """
 
+mi_direccion = ""
+miDireccion = ""
+cantidad_alumnos = 30
+peso = 85.5
+verdadero = True
+
+#Tipo de datos type(nombre_variable) Te dice al tipo de variable que pertenece
+print(type(nombre))#<class 'str'>
+print(type(año))#<class 'str'>
+print(type(mes))#<class 'int'>
+print(type(peso))#<class 'float'>
+print(type(verdadero))#<class 'bool'>
+
+type(verdadero)#no imprime el tipo de dato
+
+#Manipulacion Variables
+
+numero=2
+numero=numero +3 #numero = 2 + 3
+print(numero)#5
+
+nombre = nombre + " Riveros" #nombre = "Seba"+" Riveros"
+print(nombre) #Seba Riveros
+
+#Precision de datos
+print(5/9)
+print(f"Resutlado de la division {5/9:.2f}") #Con dos decimales
+print("el resultado de la division",round(5/9,3)) #Otra forma ocupando round(), y al final agregamos la cantidad de decimales, en este caso 3
+
+
 

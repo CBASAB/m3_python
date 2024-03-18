@@ -86,7 +86,7 @@ print(5/9)
 print(f"Resutlado de la division {5/9:.2f}") #Con dos decimales
 print("el resultado de la division",round(5/9,3)) #Otra forma ocupando round(), y al final agregamos la cantidad de decimales, en este caso 3
 
-
+#Captura de datos
 nombre = input("Ingrese su nombre:  ")
 print("Tu nombre es",nombre)
 print(f"Tu nombre es {nombre}")

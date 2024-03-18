@@ -20,3 +20,10 @@ dia = 7
 #Dentro del string estoy poniendo los valores de las variables que cree
 print (f"Hola {nombre}, El año es {año} del mes {mes} y el dia {dia}")
 
+#string.format
+#print("".format())
+print("Hola {}, El año es {} del mes {} y el dia {}".format(nombre,año,mes,dia))
+
+#Antigua forma de escribir lo mismo que arriba (Interpolacion con %).. %s es con string y %d es valor numerico
+print("Hola %s, El año es %s del mes %d y el dia %d" %(nombre,año,mes,dia))
+

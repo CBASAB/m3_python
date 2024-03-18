@@ -13,6 +13,10 @@ razon_utilidad_actual_y_anterior = (utilidades_actuales / utilidades_anio_anteri
 """
 if utilidades_anio_anterior > 0 :
     #Realizar lo que este aqui tabulado
+    razon_utilidad_actual_y_anterior = (utilidades_actuales / utilidades_anio_anterior)
+    
+    print(f"La razón entre la utilidad actual vs la utilidad del año anterior es: {round(razon_utilidad_actual_y_anterior,2)} de crecimiento")
+    
 else:
     #realizar accion por default
     print("Las utilidades no pueden ser iguales a cero")
@@ -21,4 +25,10 @@ else:
 #Print de datos
 print(f"La razón entre la utilidad actual vs la utilidad del año anterior es: {round(razon_utilidad_actual_y_anterior,2)} de crecimiento")
 
+"""
+numero = 77
+#Saber si es mayor a 40 o menor a 10 o es igual a 77
+
+if = numero == 77 :
+"""
 

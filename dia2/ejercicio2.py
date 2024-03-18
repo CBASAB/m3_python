@@ -87,4 +87,13 @@ print(f"Resutlado de la division {5/9:.2f}") #Con dos decimales
 print("el resultado de la division",round(5/9,3)) #Otra forma ocupando round(), y al final agregamos la cantidad de decimales, en este caso 3
 
 
+nombre = input("Ingrese su nombre:  ")
+print("Tu nombre es",nombre)
+print(f"Tu nombre es {nombre}")
+
+edad = input("Ingrese su edad:  ")
+print("Tu tienes",edad,"años")
+print(type(edad))#<class 'str'> Aun cuando el usuario ingresa una variable numerica lo transforma a string
+
+
 

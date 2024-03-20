@@ -8,6 +8,8 @@ elif contrasenia == "12345":
     print("El password es incorrecto")
 elif len(contrasenia) < 6:
     print("El password es demasiado corto")
+else:
+    print("El formato de password es correcto")
 
 #Validar que si el usuario ingresa 12345 -> El password es incorrecto
 

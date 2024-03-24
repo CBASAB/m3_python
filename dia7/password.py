@@ -12,7 +12,7 @@ while password != "hola mundo":
 
 print("Clave correcta, Fin del programa")
 
-"""
+
 
 numero = int(input("Ingrese un numero entero del 1 al 100:\n"))
 
@@ -24,3 +24,14 @@ while numero != 33:
 
 print("Fin del programa")
 
+"""
+
+#while con contador
+inicio = 0
+fin = 6
+
+while inicio < fin:
+    print(f" inicio {inicio} , fin {fin}")
+    inicio = inicio + 1
+
+print("Fin del while")

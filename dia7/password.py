@@ -35,3 +35,8 @@ while inicio < fin:
     inicio = inicio + 1
 
 print("Fin del while")
+
+#Contar (incremento de uno en uno)
+contar = 0
+contar = contar + 1
+#Estas tres formas son lo mismo   i = i + 1 -> i +=1 -> i++

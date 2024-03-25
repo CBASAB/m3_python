@@ -98,3 +98,13 @@ print("---------  -----------")
 for clave, valor in diccionario.items():
     print(f"clave: {clave} - valor: {valor}")
 
+print("--------- Tablas de multiplicar -----------")
+for numero1 in range(1,11):
+    print(f'\nTabla del {numero1}:------------------------------\n')
+    for numero2 in range(1,11):
+        print(f"{numero1} * {numero2} = {numero1*numero2}")
+
+print("--------------------")
+
+for index in range(0,10,1):
+    print(index)

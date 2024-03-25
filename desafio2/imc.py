@@ -1,15 +1,13 @@
-"""
-Falta agregar validación para que usuario no ingrese 0
-
-"""
-
-
-
-#Captura de datos
+#Captura de datos y validación
 peso_kilos = float(input("Ingrese su peso en Kg: \n"))
+if peso_kilos <= 0:
+    peso_kilos = float(input("Su peso no puede ser 0. Reingrese su peso en Kg: \n"))
 altura = float(input("Ingrese su altura en cm: \n"))
+if altura <= 0:
+    altura = float(input("Su altura no puede ser 0. Reingrese su altura en cm: \n"))
+
 #Conversión de centimetros a metros
-altura = altura/100
+altura = float(altura/100)
 
 #Print de datos
 indice_masa_corporal = float(peso_kilos/altura**2)

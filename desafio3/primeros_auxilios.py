@@ -1,7 +1,10 @@
-estimulo = input("BIENVENIDO AL PROGRAMA DE PRIMEROS AUXILIOS \n ¿Responde a estimulos? [y/n]: ").lower()
+#Se imprime mensaje de bienvenida y se le pide a usuario ingresar opción Yes or No para iniciar programa
+print("BIENVENIDO AL PROGRAMA DE PRIMEROS AUXILIOS")
+estimulo = input("¿Responde a estimulos? [y/n]: ").lower()
 
+#Se comienza a validar opciones ingresadas vs lo solicitado
 if estimulo == "y":
-    print("Valorar la necesidad de llevarlo al hospital mas cercano")
+    print("Valorar la necesidad de llevarlo al hospital más cercano")
 else:
     print("Abrir la via Aérea")
 
@@ -21,7 +24,7 @@ else:
             else:
                 print("Administrar compresiones torácicas hasta que llegue la ambulancia")
 
-            ambulancia=input("¿Llego la ambulancia? [y/n]: ").lower()
+            ambulancia=input("¿Llegó la ambulancia? [y/n]: ").lower()
 
 
 print("Fin del programa")

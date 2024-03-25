@@ -1,9 +1,10 @@
 #Se importan librerias
 import sys 
 
+#Se solicita a usuario ingresar opción como argumento
 umbral = int(sys.argv[1])
 
-#Diccionario
+#Diccionario con ventas entregadas
 ventas = {
     "Enero": 15000,
     "Febrero": 22000,
@@ -18,25 +19,15 @@ ventas = {
     "Noviembre": 91000,
     "Diciembre": 21000,
 }
-#Diccionario vacio
-mayor_umbral = {}
 
-#Recorrer diccionario
+#Se crea diccionario vacio en el cual iran las ventas que superen el umbral
+umbral_superado = {}
+
+#Se recorre diccionario
 for clave, valor in ventas.items():
-    #print(f"clave {clave} - valor {valor}")
     if umbral < valor :
-        mayor_umbral[clave] = valor
+        umbral_superado[clave] = valor
 
-print(f"El nuevo diccionario es: {mayor_umbral}")
-    
+#Print
+print(f"Los meses y sus valores que superan el umbral ingresado son: {umbral_superado}")
 
-#Crear diccionario nuevo con compresion
-mayor_umbral2 = {clave: valor for clave, valor in ventas.items() if umbral < valor }
-print(f"El nuevo diccionario2 es: {mayor_umbral}")
-    
-    
-"""
-Como agregar elementos a un diccionario
-ventas["lunes"] = 2000
-print(ventas)
-"""

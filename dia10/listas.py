@@ -51,6 +51,7 @@ print(colores) #['blanco', 'verde', 'rojo', 'rosa', 'azul', 'amarillo', 'negro',
 
 colores.insert(0, "cafe") #['cafe', 'blanco', 'verde', 'rojo', 'azul', 'amarillo', 'negro', 'cafe']
 
+
 # .pop([indice]) -> Elimina un elemento dentro de la lista
 colores.pop(3) #elimina la 3 posición, en este caso el rojo y desplaza los otros elementos para ocupar el espacio que quedo vacio
 print(colores) # ['cafe', blanco', 'verde', 'rosa', 'azul', 'amarillo', 'negro', 'cafe']
@@ -75,6 +76,8 @@ lista2 = lista1 #ESTO NO ES UN RESPALDO DE LA LISTA
 lista3 = lista1.copy() # ESTO SI ES UN RESPALDO DE LA LISTA Y SIEMPRE ANTES DE HACER UN CAMBIO
 lista4 = lista1[:] # ESTO SI ES UN RESPALDO DE LA LISTA Y SIEMPRE ANTES DE HACER UN CAMBIO (slice)
 lista5 = list(lista1) # ESTO SI ES UN RESPALDO DE LA LISTA Y SIEMPRE ANTES DE HACER UN CAMBIO
+lista7 = lista1 + []
+lista8 = lista1 * 1
 
 """
 En Python, cuando asignas una lista a otra variable utilizando el operador de asignación (=), 
@@ -109,6 +112,16 @@ print(len(colores)) # 0
 
 
 
+## OPERACIONES ##
 
+lista6 = [20,30,40,50]
 
+lista_concatenada = lista1 + lista6
+print(lista1) # [1, 2, 3, 4, 5]
+print(lista6) # [20, 30, 40, 50]
+print(lista7) # [1, 2, 3, 4]
+print(lista8) # [1, 2, 3, 4]
+print(lista_concatenada) # [1, 2, 3, 4, 5, 20, 30, 40, 50]
+lista6.append(60)
+print(lista_concatenada)
 

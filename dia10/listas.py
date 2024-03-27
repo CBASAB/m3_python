@@ -1,5 +1,7 @@
 """
 Listas
+lista: Conjunto de datos, pueden ser numeros, strings, otra lista, etc.. Ordenados segun su ingreso, separados por coma
+El primer elemento esta en la posición 0 -> Posición 0: [1] Posición 1: [5] Posición 2: [8]..
 Pueden contener distintos tipos de elementos
 Son mutables
 Se usan los [] para definir una variable de tipo lista
